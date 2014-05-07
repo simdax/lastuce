@@ -1,0 +1,40 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.1.1)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    chingu (0.8.1)
+      crack
+      gosu (>= 0.7.25)
+      rest-client
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
+    eventmachine (1.0.3)
+    gosu (0.7.50)
+    i18n (0.6.9)
+    json (1.8.1)
+    mime-types (2.2)
+    minitest (5.3.3)
+    osc-ruby (1.1.0)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubySC (0.4.0)
+      activesupport (~> 4.0)
+      eventmachine (~> 1)
+      osc-ruby (~> 1.1)
+    safe_yaml (1.0.3)
+    thread_safe (0.3.3)
+    tzinfo (1.1.0)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chingu
+  gosu
+  rubySC
